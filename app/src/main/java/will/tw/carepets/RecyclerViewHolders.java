@@ -10,6 +10,7 @@ public class RecyclerViewHolders extends RecyclerView.ViewHolder implements View
     public TextView songTitle;
     public TextView songYear;
     public TextView songAuthor;
+    public TextView build;
 
     public RecyclerViewHolders(View itemView) {
         super(itemView);
@@ -18,6 +19,7 @@ public class RecyclerViewHolders extends RecyclerView.ViewHolder implements View
         songTitle = (TextView)itemView.findViewById(R.id.song_title);
         songYear = (TextView)itemView.findViewById(R.id.song_year);
         songAuthor = (TextView)itemView.findViewById(R.id.song_author);
+        build = (TextView)itemView.findViewById(R.id.build);
     }
 
     @Override

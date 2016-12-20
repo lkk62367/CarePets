@@ -35,9 +35,10 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewHolder
                 .load(itemList.get(position).getImagename())
                 .resize(150, 150)
                 .into(holder.petimage);
-        holder.songTitle.setText("名稱: " + itemList.get(position).getSongTitle());
-        holder.songYear.setText("性別: " + itemList.get(position).getSongYear());
-        holder.songAuthor.setText("種類: " + itemList.get(position).getSongAuthor());
+        holder.songTitle.setText("名稱：" + itemList.get(position).getSongTitle());
+        holder.songYear.setText("性別：" + itemList.get(position).getSongYear());
+        holder.songAuthor.setText("種類：" + itemList.get(position).getSongAuthor());
+        holder.build.setText("體型：" + itemList.get(position).getBuild());
     }
 
     @Override

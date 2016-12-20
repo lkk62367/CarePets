@@ -3,17 +3,17 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_camera"
+            android:id="@+id/dog"
             android:icon="@drawable/ic_menu_camera"
-            android:title="Import" />
+            android:title="狗" />
         <item
-            android:id="@+id/nav_gallery"
+            android:id="@+id/cat"
             android:icon="@drawable/ic_menu_gallery"
-            android:title="Gallery" />
+            android:title="貓" />
         <item
-            android:id="@+id/nav_slideshow"
+            android:id="@+id/other"
             android:icon="@drawable/ic_menu_slideshow"
-            android:title="Slideshow" />
+            android:title="其他" />
         <item
             android:id="@+id/nav_manage"
             android:icon="@drawable/ic_menu_manage"

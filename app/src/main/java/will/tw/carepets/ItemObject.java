@@ -16,11 +16,12 @@ public class ItemObject {
     @SerializedName("ImageName")
     private String imagename;
 
-    public ItemObject(String name, String sex, String type, String imagename) {
+    public ItemObject(String name, String sex, String type, String imagename,String build) {
         this.name = name;
         this.sex = sex;
         this.type = type;
         this.imagename = imagename;
+        this.build = build;
     }
 
     public String getSongTitle() {
@@ -37,6 +38,9 @@ public class ItemObject {
 
     public String getImagename() {
         return imagename;
+    }
+    public String getBuild(){
+        return build;
     }
 
 }
